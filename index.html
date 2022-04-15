@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             Layout 3
         </title>
         <link rel="stylesheet" href="layout3.css">
+        <script src="https://kit.fontawesome.com/84559718d5.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="nav">
@@ -15,31 +17,52 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="main">
-            <div class="cont1">
+        <div class="container">
+            <div class="main">
                 <h1 class="main-heading">Blog Post Title</h1>
-            <p class="main-sub-head">by <a href="#">Test</a></p>
-            <p>
-                <!-- I Tag -->
-                Posted on August 24, 2013 at 9:00 PM
-            </p>
-            <!-- <img src="https://via.placeholder.com/700x400.png?text=900x300" alt="Layout 3 Place Holder"> -->
-            <p class="para para1">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae iure perspiciatis accusantium voluptas esse rem itaque libero? Et dolorum quibusdam fugiat necessitatibus, voluptates voluptatum dolore laboriosam consectetur, porro, aut odit.
-            </p>
-            <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>
-            <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>
-            <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>
-            <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>
+                <p class="main-sub-head">by <a href="#">Test</a></p>
+                <p class="main-up-time">
+                    <i class="fa-solid fa-clock"></i>
+                    Posted on August 24, 2013 at 9:00 PM
+                </p>
+                <img src="https://via.placeholder.com/700x400.png?text=900x300" alt="Layout 3 Place Holder">
+                <div class="pghs">
+                    <p class="para para-big">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae iure perspiciatis accusantium voluptas esse rem itaque libero? Et dolorum quibusdam fugiat necessitatibus, voluptates voluptatum dolore laboriosam consectetur, porro, aut odit.
+                    </p>
+                    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>
+                    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>
+                    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>
+                    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, fugiat! Quasi eligendi hic quae cum nemo laboriosam quas ipsum harum, atque sunt nam itaque, debitis omnis vero dolorum aliquam dolore!</p>  
+                </div>  
             </div>
-            <div class="cont2">
+            <div class="main-clear"></div>      
+            <div class="aside">
                 <div class="aside1">
                     <h3 class="aside-head">Blog Search</h1>
-                    <!-- <input type="search"> -->
+                        <!-- Search Bar Container -->
+                    <div class="search-bar">
+                        <input id="search" type="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
                 </div>
                 <div class="aside2">
                     <h3 class="aside-head">Blog Categories</h3>
-        
+                    <div class="aside2-cont">
+                        <div class="cont1">
+                            <a href="#">Category Name</a>
+                            <a href="#">Category Name</a>
+                            <a href="#">Category Name</a>
+                            <a href="#">Category Name</a>
+                        </div>
+                        <div class="cont2">
+                            <a href="#">Category Name</a>
+                            <a href="#">Category Name</a>
+                            <a href="#">Category Name</a>
+                            <a href="#">Category Name</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
                 </div>
                 <div class="aside3">
                     <h3 class="aside-head">
@@ -48,9 +71,10 @@
                     <p class="aside-content">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit non eligendi quam molestiae ea omnis iusto molestias. Eius, delectus asperiores harum quas possimus unde, excepturi rerum ratione id architecto officiis?
                     </p>
-                </div> 
-            </div>  
-        </div>        
+                </div>
+            </div>
+            <div class="aside-clear"></div>
+        </div> 
         <div class="copyright">
             <p>Copyright &#169 Your Website 2014</p>
         </div>
