@@ -93,6 +93,7 @@ a{
 .para-big{
     font-size: 20px;
     color: #2d3436;
+    font-weight: bold;
 }
 
 /* Main Ends *
@@ -393,10 +394,6 @@ a{
         float: left;
     }
 
-    .para{
-        font-size: 8px;
-        line-height: normal;
-    }
 
     .para-big{
         font-size: 12px;
@@ -423,12 +420,13 @@ a{
     }
 
     .para{
-        font-size: 8px;
-        line-height: normal;
+        font-size: 10px;
+        line-height: 1.4;
     }
 
     .para-big{
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: bold;
     }
 
     .nav{
@@ -482,12 +480,13 @@ a{
     }
 
     .para{
-        font-size: 8px;
-        line-height: normal;
+        font-size: 10px;
+        line-height: 1.1;
     }
 
     .para-big{
         font-size: 12px;
+        font-weight: bold;
     }
 
     li{
@@ -512,7 +511,7 @@ a{
 
     .para{
         font-size: 8px;
-        line-height: normal;
+        line-height: 1.4;
     }
 
     .para-big{
