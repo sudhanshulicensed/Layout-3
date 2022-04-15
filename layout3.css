@@ -164,6 +164,7 @@ a{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    font-weight: normal;
 }
 
 .aside-content{
@@ -301,6 +302,10 @@ a{
     
         .cont1 a, .cont2 a{
             font-size: 12px;
+        }
+
+        .fafa{
+            top: 6px;
         }
 }
 
@@ -450,6 +455,11 @@ a{
         padding-bottom: 30px;
         border-bottom: 1px solid #dfe6e9;
     }
+
+    .main-up-time{
+        font-size: 12px;
+        padding: 10px 0;
+    }
 }
 
 @media(min-width: 240px) and (max-width: 290px) {
@@ -501,16 +511,16 @@ a{
     }
 
     .para{
-        font-size: 7px;
+        font-size: 8px;
         line-height: normal;
     }
 
     .para-big{
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .nav{
-        margin-bottom: 7px;
+        margin-bottom:8px;
     }
 
     .main-heading{
@@ -546,7 +556,8 @@ a{
     }
 
     .main-up-time{
-        font-size: 14px;
+        font-size: 10px;
+        padding: 8px 0;
     }
 
     .aside{
